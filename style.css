@@ -73,6 +73,7 @@ body {
   font-weight: 500;
   padding: 8px 32px;
   border-radius: 8px;
+  border: none;
 
   margin-top: 8px;
 }
@@ -127,4 +128,29 @@ body {
   padding-left: auto;
   align-self: flex-end;
   font-weight: 500;
+}
+
+
+.signup-section {
+  padding: 75px 15vw;
+}
+.signup-box {
+  background-color: #3882F6;
+  padding: 16px 10%;
+  border-radius: 8px;
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+}
+.signup-box .herotext {
+  font-size: 24px;
+}
+.signup-box .signup-btn {
+  border: 2px solid white;
+  padding: 8px 24px;
+  flex: 0 0 auto;
+}
+.signup-box .text {
+  flex: 1 1 auto;
 }
