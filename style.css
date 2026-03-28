@@ -56,9 +56,11 @@ body {
 .main-section {
   padding: 64px 10vw;
   gap: 16px;
+  min-height: 400px;
 }
 .main-container {
   flex: 1;
+  align-self: center;
 }
 .img-container {
   flex: 1;
@@ -95,13 +97,14 @@ body {
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .info {
-  flex: 1 0 125px;
+  flex: 0 0 200px;
 }
 .info-img {
   width: auto;
-  height: 125px;
+  height: 150px;
   border: 4px solid #3882F6;
   border-radius: 8px;
 }
@@ -153,4 +156,14 @@ body {
 }
 .signup-box .text {
   flex: 1 1 auto;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #1F2937;
+  color: white;
+  padding: 30px;
 }
