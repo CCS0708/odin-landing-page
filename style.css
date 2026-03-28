@@ -43,7 +43,7 @@ body {
 }
 .subtext {
   font-size: 16px;
-  color: #E5E7EB;
+  color: #e5e7eb;
 }
 
 .herotext {
@@ -62,7 +62,7 @@ body {
 }
 .img-container {
   flex: 1;
-  background-color: #E5E7E9;
+  background-color: #6d747e;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -75,4 +75,35 @@ body {
   border-radius: 8px;
 
   margin-top: 8px;
+}
+
+.info-section {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 15vw 48px;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.info-title {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+}
+.info-box {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.info {
+  flex: 1 0 125px;
+}
+.info-img {
+  width: auto;
+  height: 125px;
+  border: 4px solid #3882F6;
+  border-radius: 8px;
+}
+.infotext{
+  color: #6c6f77;
 }
